@@ -1,0 +1,58 @@
+<!-- <header>
+    <h1>  <a routerLink="/home">Sportscape</a></h1>
+    <nav>
+        <ul>
+            <li><a routerLink="/home">{{ lang === 1 ? "მთავარი" : "Home" }}</a></li>
+            <li><a routerLink="/about">{{ lang === 1 ? "ჩვენს შესახებ" : "About Us" }}</a></li>
+            <li class="liBars">
+                <a routerLink="/services">{{ lang === 1 ? "სერვისები" : "Services" }} </a>
+                <ul>
+                    <li><a routerLink="/services/padel">{{ lang === 1 ? "პადელი" : "Padel" }} </a></li>
+                    <li><a routerLink="/services/sport-club">{{ lang === 1 ? "სპორტული კლუბი" : "Sport Club" }} </a></li>
+                </ul>
+            </li>
+          <li><a routerLink="/events">{{ lang === 1 ? "ივენთები" : "Events" }} </a></li>
+            <li><a href="#" (click)="scrollToFooter(); $event.preventDefault()">{{ lang === 1 ? "კონტაქტი" : "Contact" }} </a></li>
+        </ul>
+    </nav>
+<div class="lang" (click)="toggleLang()">
+    <img src="../../assets/georgia.png"  [ngClass]="{'bigImg': lang === 1}" alt="">
+    <img src="../../assets/united-kingdom.png" [ngClass]="{'bigImg': lang === 2}" alt="">
+</div>
+
+
+</header> -->
+
+
+<header>
+    <div class="burger" (click)="toggleNav()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <h1>
+        <a routerLink="/home">Sportscape</a>
+    </h1>
+   
+   
+    <nav [class.active]="navOpen">
+        <ul>
+            <li><a routerLink="/home">{{ lang === 1 ? "მთავარი" : "Home" }}</a></li>
+            <li><a routerLink="/about">{{ lang === 1 ? "ჩვენს შესახებ" : "About Us" }}</a></li>
+            <li class="liBars">
+                <a routerLink="/services">{{ lang === 1 ? "სერვისები" : "Services" }}</a>
+                <ul>
+                    <li><a routerLink="/services/padel">{{ lang === 1 ? "პადელი" : "Padel" }}</a></li>
+                    <li><a routerLink="/services/sport-club">{{ lang === 1 ? "სპორტული კლუბი" : "Sport Club" }}</a></li>
+                </ul>
+            </li>
+            <li><a routerLink="/events">{{ lang === 1 ? "ივენთები" : "Events" }}</a></li>
+            <li><a href="#" (click)="scrollToFooter(); $event.preventDefault()">{{ lang === 1 ? "კონტაქტი" : "Contact" }}</a></li>
+        </ul>
+    </nav>
+
+    <div class="lang" (click)="toggleLang()">
+        <img src="../../assets/georgia.png" [ngClass]="{'bigImg': lang === 1}" alt="">
+        <img src="../../assets/united-kingdom.png" [ngClass]="{'bigImg': lang === 2}" alt="">
+    </div>
+</header>
