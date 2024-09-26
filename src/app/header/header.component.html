@@ -39,10 +39,10 @@
         <ul>
             <li><a routerLink="/home">{{ lang === 1 ? "მთავარი" : "Home" }}</a></li>
             <li><a routerLink="/about">{{ lang === 1 ? "ჩვენს შესახებ" : "About Us" }}</a></li>
-            <li class="liBars">
-                <a routerLink="/services">{{ lang === 1 ? "სერვისები" : "Services" }}</a>
-                <ul>
-                    <li><a routerLink="/services/padel">{{ lang === 1 ? "პადელი" : "Padel" }}</a></li>
+            <li class="liBars" (click)="toggleLiBars()">
+                <a >{{ lang === 1 ? "სერვისები" : "Services" }}</a>
+                <ul [ngClass]="{'open': isLiBarsOpen}">
+                    <li><a routerLink="/services">{{ lang === 1 ? "პადელი" : "Padel" }}</a></li>
                     <li><a routerLink="/services/sport-club">{{ lang === 1 ? "სპორტული კლუბი" : "Sport Club" }}</a></li>
                 </ul>
             </li>

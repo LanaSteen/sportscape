@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "bpg arial";
+    src: url(/assets/fonts/bpg_arial.ttf) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "algeti";
+    src: url("/assets/fonts/algeti.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "dejavu";
+    src: url("/assets/fonts/dejavu.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "MarkGEO-Regular";
+    src: url("/assets/fonts/MarkGEO-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "FiraGOL";
+    src: url("/assets/fonts/FiraGO-Bold.otf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "MarkGEOCAPSBold";
+  
+    src: url("/assets/fonts/MarkGEOCAPSBold.ttf") format("truetype");
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "MarkGEOCAPS-Medium";
+    src: url("/assets/fonts/MarkGEOCAPS-Medium.ttf") format("truetype");
+    font-style: normal;
+  }
+
+
+  

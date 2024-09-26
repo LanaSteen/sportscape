@@ -12,10 +12,16 @@ export class HeaderComponent {
     this.lang = cookieLang ? parseInt(cookieLang, 10) : 1; 
   }
   @Output() contactClick = new EventEmitter<void>();
-  lang: number = 1; // Default value
-  navOpen: boolean = false; // Track the state of the navigation
+  lang: number = 1; 
+  navOpen: boolean = false; 
+  isLiBarsOpen = false;
+
+  toggleLiBars() {
+    this.isLiBarsOpen = !this.isLiBarsOpen; 
+
+  }
   toggleLang() {
-    this.lang = this.lang === 1 ? 2 : 1; // Toggle between 1 and 2
+    this.lang = this.lang === 1 ? 2 : 1; 
     this.cookieService.setCookie('lang', this.lang.toString(), 1);
     window.location.reload();
    
@@ -25,11 +31,11 @@ export class HeaderComponent {
   }
 
   toggleNav() {
-    this.navOpen = !this.navOpen; // Toggle the navigation state
+    this.navOpen = !this.navOpen; 
   }
 
   setExampleCookie() {
-    this.cookieService.setCookie('exampleCookie', 'Hello, World!', 7); // Set cookie for 7 days
+    this.cookieService.setCookie('exampleCookie', 'Hello, World!', 7); 
   }
 
   getExampleCookie() {
