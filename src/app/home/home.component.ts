@@ -18,7 +18,7 @@ export class HomeComponent {
   @HostListener('window:scroll', [])
   onWindowScroll() {
     const scrollPosition = window.scrollY;
-    const speed = 0.5; // Adjust this value for slower/faster scrolling
+    const speed = 0.65; // Adjust this value for slower/faster scrolling
     this.translateY = scrollPosition * speed;
   }
 }

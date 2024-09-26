@@ -28,8 +28,8 @@ main{
       scroll-behavior: smooth;
       h1{
         font-size: 6vw;
-      
-        font-family: MarkGEOCAPSBold;
+        font-family: FiraGOL;
+        //font-family: MarkGEOCAPSBold;
         font-weight: 900;
         font-weight: bold;
         // animation: scroll 15s linear infinite;
@@ -54,10 +54,10 @@ main{
       // height: 140vh;
       position: relative;
       .img{
-        height: 60vh;
+        height: 90vh;
       }
       .titles{
-        height: 50vh;
+        height: 70vh;
       }
     }
   }
@@ -68,15 +68,29 @@ main{
       // height: 140vh;
       position: relative;
       .img{
-        height: 50vh;
+        height: 80vh;
       }
       .titles{
-        height: 40vh;
+        height: 70vh;
       }
     }
   }
 }
 @media (max-width: 1129px) {
+  main{
+    .firstSection{
+      // height: 140vh;
+      position: relative;
+      .img{
+        height: 70vh;
+      }
+      .titles{
+        height: 60vh;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
   main{
     .firstSection{
       // height: 140vh;
