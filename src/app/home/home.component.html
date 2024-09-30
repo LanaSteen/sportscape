@@ -1,5 +1,5 @@
 
-<main>
+<!-- <main>
     <section class="firstSection">
         <div class="img">
             <img src="../../assets/1.jpg" alt="">
@@ -13,6 +13,56 @@
         </section>
     </section>
 
+
+
+</main> -->
+
+
+
+<main>
+    <section class="firstSection">
+        <div class="img">
+            <img src="" alt="">
+        </div>
+      
+        <div class="titles" [style.transform]="'translateY(' + translateY + 'px)'">
+            <h1> S P O R T S C A P E  </h1>
+        </div>
+        
+    </section>
+    <section class="secondSection">
+        <div class="left">
+            <h2> {{ lang === 1 ? "ჩვენს შესახებ" : "About Us" }}</h2>
+
+            <p class="geoP" *ngIf="lang==1">კეთილი იყოს თქვენი მობრძანება Sportscape-ში, სადაც ჩვენ ვქმნით 
+                სიხარულს თქვენი აქტიური ცხოვრების სტილისთვის! ჩვენი მისიაა შევქმნათ 
+                ჯანსაღი ურთიერთობები სახალისო სპორტისა და გასართობი აქტივობების მეშვეობით. 
+                ჩვენ გთავაზობთ მომსახურებებს, როგორიცაა პადელი, პნევმატური იარაღით სროლა 
+                და მშვილდოსნობა, გამოცდილების ყველა დონისთვის. 
+                <br>Sportscape-ში ჩვენი თანამედროვე 
+                ინვენტარი და პროფესიონალი ინსტრუქტორები უზრუნველყოფენ უსაფრთხო და 
+                სახალისო გამოცდილებას. 
+                შემოგვიერთდით ახალი ინტერესების აღმოსაჩენად, თქვენი უნარების გაუმჯობესებისთვის
+                 და დაუვიწყარი მოგონებების შესაგროვებლად. თვალი ადევნეთ ჩვენს ბოლო სიახლეებს და 
+                დაგეგმილ ღონისძიებებს. მოუთმენლად ველით თქვენთან შეხევდრას!
+          
+               </p>
+               <p class="engP" *ngIf="lang!=1">   Welcome to Sportscape, where we bring excitement to your active lifestyle!
+                Our mission is to create a vibrant community through thrilling sports and recreational 
+                activities. We offer services like padel, pneumatic gun shooting, and archery, catering 
+                to all skill levels.  <br>
+               At Sportscape, our state-of-the-art facilities and expert instructors ensure a safe, 
+               enjoyable experience. Join us to discover new passions, improve your skills, and make 
+               lasting memories. Stay connected for the latest updates and events. We can’t wait to welcome you!
+               </p>
+
+
+        </div>
+        <div class="right">
+            <img src="../../assets/2.jpg" alt="">
+        </div>
+        
+    </section>
 
 
 </main>

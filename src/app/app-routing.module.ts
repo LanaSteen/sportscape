@@ -4,12 +4,14 @@ import { HomeComponent } from './home/home.component';
 import { ServicesComponent } from './services/services.component';
 import { EventsComponent } from './events/events.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './About/about.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'events', component: EventsComponent },
   { path: 'footer', component: FooterComponent },
+  { path: 'about', component: AboutComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' } // Default route
 ];
 

@@ -1,83 +1,22 @@
 main{
-  .firstSection{
-    width: 100%;
-    height: 90vh;
-    background-image: url('../../assets/123.png');
-    background-repeat: no-repeat;
-    background-position: center top;
-    position: fixed;
-    top: 0;
-    z-index: -1;
-    .titles{
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+   margin-top: 80px;
+   background-color: #deebff90;
+   h1{
+    width: 90%;
+    text-align: center;
+    font-size: 50px;
+   }
+   p{
+    width: 60%;
+    text-align: justify;
+    font-size: 25px;
+   }
 
-      width: 100%;
-      height: 70vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-        h1{
-          font-size: 6vw;
-                  font-family: FiraGOL;
-                  // font-family: MarkGEOCAPSBold;
-                  font-weight: 900;
-                  font-weight: bold;
-        }
-    }
-
-  }
-
-
-
-
-
-  .secondSection {
-    margin-top:   90vh;
-    display: flex;
-    width: 100%;
-    height: 80vh;
-    background-color: #DEEBFF;
-    .right{
-      width: 50%;
-      display: flex;
-      justify-content: end;
-      align-items: center;
-      overflow: hidden;
-      img{
-        width: 90%;
-
-      }
-    }
-    .left{
-      width: 50%;
-      padding: 5% 0% 5% 5%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 5%;
-      h2{
-        font-family: FiraGOL;
-        color: #4084dc;
-        font-size: 40px;
-        width: 95%;
-        text-align: center;
-        font-family: MarkGEOCAPSBold;
-      }
-      .geoP{
-        width: 95%;
-        text-align: justify;
-        font-size: 20px;
-        line-height: 1.5
-        
-      }
-      .engP{
-        width: 95%;
-        text-align: justify;
-        font-size: 20px;
-        line-height: 2
-        
-      }
-    };
-  }
 }
 
 
@@ -88,35 +27,8 @@ main{
 
 
 @media (max-width: 1100px) {
-  .secondSection{
-    height: auto !important;
-    flex-direction: column;
-    display: flex;
-    justify-content: center !important;
-    .left{
-      width: 90% !important;
-      
-      flex-direction: row;
-      justify-content: center !important;
-      h2{
-        margin-bottom: 20px;
-        font-size: 20px !important;
-      }
-      p{
-        font-size: 15px !important;
-      }
-    }
-    .right{
-      width: 100% !important;
-      height: 50vh;
-      flex-direction: row;
-      justify-content: center !important;
-    
-      img{
-        width: 100% !important;
-      }
-    }
-  }
+  
+  
 }
 
 
