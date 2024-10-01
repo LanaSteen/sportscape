@@ -1,5 +1,5 @@
 import { Component, HostListener } from '@angular/core';
-import { CookieManagementService } from '../../cookie-service.service';
+import { CookieManagementService } from '../cookie-service.service';
 
 @Component({
   selector: 'app-home',

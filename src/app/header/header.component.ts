@@ -1,5 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { CookieManagementService } from '../../cookie-service.service';
+import { CookieManagementService } from '../cookie-service.service';
 import { LanguageService } from '../../language-service.service';
 
 @Component({
