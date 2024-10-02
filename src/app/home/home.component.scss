@@ -64,17 +64,22 @@ main{
         font-family: MarkGEOCAPSBold;
       }
       .geoP{
+        font-family: FiraGOL;
         width: 95%;
         text-align: justify;
         font-size: 20px;
-        line-height: 1.5
+        line-height: 1.5;
+        color: #4084dc;
+        font-family:MarkGEO-Regular;
         
       }
       .engP{
+        font-family:MarkGEO-Regular;
         width: 95%;
         text-align: justify;
         font-size: 20px;
-        line-height: 2
+        line-height: 2;
+        color: #4084dc;
         
       }
     };
@@ -83,6 +88,13 @@ main{
 
 
 
+.thirdSection{
+  height: 500px;
+  overflow: hidden;
+  background-color: #e6effb;
+  padding: 0px 100px 50px;
+
+}
 
 
 

@@ -1,0 +1,15 @@
+.slideshow-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slideshow {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    width: 100%; /* Each image takes full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

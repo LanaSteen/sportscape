@@ -1,0 +1,6 @@
+<div class="slideshow-container">
+    <div class="slideshow" [ngStyle]="{'transform': 'translateX(-' + (currentIndex * 100) + '%)'}">
+      <img *ngFor="let image of images" [src]="image" class="slide" />
+
+    </div>
+  </div>

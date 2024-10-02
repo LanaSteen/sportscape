@@ -30,7 +30,7 @@ footer{
             display: flex;
             flex-direction: column;
             justify-content: start;
-            gap: 30px;
+            gap: 40px;
             .box1{
                 display: flex;
                 gap: 10px;
@@ -44,7 +44,7 @@ footer{
                 }
             }
             .box2{
-                width: 100px;
+                width:150px;
                 display: flex;
                 justify-content: space-between;
                 a{

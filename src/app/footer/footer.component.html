@@ -3,14 +3,15 @@
     <main>
         <div class="title">
             <div class="line"></div>
-            <h2>C O N T A C T</h2>
+            <h2 *ngIf="lang!=1">C O N T A C T</h2>
+            <h2 *ngIf="lang==1">დ ა გ ვ ი კ ა ვ შ ი რ დ ი თ</h2>
         </div>
         <div class="boxes">
             <div class="box1">
                 <i class="fa-solid fa-phone"></i>
 
-                <a href="tel:0322456789" style="text-decoration: none; color: inherit;">
-                    <p>+ 032 2 45 67 89</p>
+                <a href="tel:0322112444" style="text-decoration: none; color: inherit;">
+                    <p>+032 2 112 444</p>
                 </a>
             </div>
             
@@ -19,6 +20,7 @@
              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a> 
              <a href="https://www.instagram.com/">  <i class="fa-brands fa-square-instagram"></i></a>
              <a href="https://www.tiktok.com/">     <i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://maps.app.goo.gl/wsHUdx6S2rSeaR7k9"> <i class="fa-solid fa-map"></i></a>
             </div>
         </div>
        

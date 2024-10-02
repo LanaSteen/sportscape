@@ -1,6 +1,24 @@
 main{
     margin-top: 80px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #e6effb;
+    .pics{
+        padding-top: 30px;
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+   
+        img{
+            max-width: 400px;
+            box-shadow: 5px 5px 5px gray;
+        }
+    }
     .map{
         width: 100%;
         .mapIF{
